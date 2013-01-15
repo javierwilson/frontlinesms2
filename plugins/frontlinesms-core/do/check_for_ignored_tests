@@ -2,4 +2,5 @@
 echo "Running 'grep -irl spock.lang.ignore test'"
 echo "Matching files::"
 grep -irl spock.lang.ignore test
+echo "Script exit code: $?"
 
