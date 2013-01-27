@@ -27,7 +27,7 @@
 				<fsms:info message="import.backup.label"/>
 				<g:uploadForm name="importForm" controller="import" action="importData" method="post">
 					<fsms:radioGroup name="data" title="import.prompt.type"
-							values="contacts,messages"
+							values="contacts,messages,activities"
 							labelPrefix="import."
 							checked="contacts"/>
 					<fsms:info message="import.version1.info"/>
